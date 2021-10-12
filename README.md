@@ -6,7 +6,19 @@ Customize this README.md however you want to turn it into documentation for your
 
 ## Project Plan
 
-_(Put your project plan here. It could be pseudocode, an outline-style development plan, etc. But whatever form you choose, it should be detailed enough that another developer could feasibly use it to implement your solution.)_
+_(Put your project plan here. 
+Basic Plan
+1) Create a table element in the HTML file with id mult-table.
+2) Get element by id in JS file
+3) for loops for the table data  rows and columns and output results 
+4) Style the table with css
+
+Intermediate Plan
+1) Create another branch naming it devInterTable
+2)  Create a button element in the HTML file
+3) Create input number boxes labeled columns and rows
+4) RE-work the for loops to push (add) a new row and column
+)_
 
 ## Reflection
 
