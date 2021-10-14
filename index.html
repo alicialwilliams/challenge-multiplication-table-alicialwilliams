@@ -19,8 +19,30 @@
         <link href="style.css" rel="stylesheet" media="all" />
     </head>
     <body>
-        <h1>Multiplication Table - Basic</h1>
+        <h1>Multiplication Table - Intermediate</h1>
         <!-- table element with id -->
+
+        <form>
+            <label for="row">Rows</label>
+            <input
+              id="row_input"
+              type="number"
+              placeholder="How many rows?"
+              required
+            />
+            <label for="column">Columns</label>
+            <input
+              id="column_input"
+              type="number"
+              placeholder="How many columns?"
+              required
+            />
+            <button id="submit_button">Create Table</button>
+
+        </form>
+            
+            <br /><br />
+
 
         
         <table id="mult-table">
