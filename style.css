@@ -1,1 +1,15 @@
-/* Write your CSS here */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    width: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+th {
+    color: blueviolet;
+}
+
