@@ -30,8 +30,8 @@ tr:hover {
   position: absolute;
   background-color: rgb(245, 196, 253);
   left: 0;
-  top: -9999px;
-  bottom: -9999px;
+  top: -9000px;
+  bottom: -9000px;
   /* height: 10000px; */
   width: 100%;
   z-index: -1;

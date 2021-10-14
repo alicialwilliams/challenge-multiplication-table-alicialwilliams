@@ -18,6 +18,9 @@ Intermediate Plan
 2)  Create a button element in the HTML file
 3) Create input number boxes labeled columns and rows
 4) RE-work the for loops to push (add) a new row and column
+
+Advanced Plan
+1) Look for resources on css hover for rows, columns and cross hair, 
 )_
 
 ## Reflection
@@ -26,4 +29,6 @@ What different approaches or techniques did you consider when planning your impl
 
 _(Before planning I had to review nested loops in tables vs divs.  I choose to work with table data because it was easier to manipulate the columns, rows, and the x-factor with conditionals.  But I ran into an issue with starting the index at 0 and integrating the "x".  I sought help and lead in the right direction with putting simple math in the conditional statements.  
 
-It may have been easier to set the output to an empty array as opposed to an empty string for user input boxes to manipulate rows of columns of different sizes.    )_
+It may have been easier to set the output to an empty array as opposed to an empty string for user input boxes to manipulate rows of columns of different sizes.  
+
+I ws able to find tons of rsources on the hover color effect in css but had an issue with over shooting the top and bottom of the table.  Played with the pixel size but results worse or same result.  Will have to do more research.   )_
