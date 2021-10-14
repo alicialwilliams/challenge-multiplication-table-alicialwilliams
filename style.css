@@ -3,11 +3,14 @@ table, th, td {
     border-collapse: collapse;
 }
 
-td, th {
+td, th, .row, .col {
+    cursor: pointer;
+    padding: 10px;
     width: 50px;
     font-size: 25px;
     text-align: center;
 }
+
 
 th {
     color: blueviolet;
