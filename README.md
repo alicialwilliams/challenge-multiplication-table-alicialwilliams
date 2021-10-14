@@ -24,4 +24,6 @@ Intermediate Plan
 
 What different approaches or techniques did you consider when planning your implementation? What were the advantages and disadvantages of those alternatives?
 
-_(Put your reflection answer here.)_
+_(Before planning I had to review nested loops in tables vs divs.  I choose to work with table data because it was easier to manipulate the columns, rows, and the x-factor with conditionals.  But I ran into an issue with starting the index at 0 and integrating the "x".  I sought help and lead in the right direction with putting simple math in the conditional statements.  
+
+It may have been easier to set the output to an empty array as opposed to an empty string for user input boxes to manipulate rows of columns of different sizes.    )_
