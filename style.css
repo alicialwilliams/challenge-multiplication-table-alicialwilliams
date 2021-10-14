@@ -25,14 +25,14 @@ tr:hover {
     position: relative;
   }
 
-  td:hover::after,
-th:hover::after {
+  td:hover:before {
   content: "";
   position: absolute;
   background-color: rgb(245, 196, 253);
   left: 0;
-  top: -5000px;
-  height: 10000px;
+  top: -9999px;
+  bottom: -9999px;
+  /* height: 10000px; */
   width: 100%;
   z-index: -1;
 }
