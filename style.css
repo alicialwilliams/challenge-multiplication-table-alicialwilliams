@@ -1,15 +1,42 @@
+* {
+    box-sizing:border-box;
+  }
+  /* th {
+    background-color: honeydew;
+  } */
+
 table, th, td {
     border: 1px solid black;
+    border-spacing: 0;
     border-collapse: collapse;
 }
 
-td, th, .row, .col {
+td, th {
     cursor: pointer;
     padding: 10px;
     width: 50px;
     font-size: 25px;
     text-align: center;
 }
+tr:hover {
+    background-color: rgba(246, 203, 241, 0.918);
+  }
+  td, th {
+    position: relative;
+  }
+
+  td:hover::after,
+th:hover::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(245, 196, 253);
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}
+
 
 
 th {
