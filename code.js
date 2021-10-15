@@ -1,10 +1,9 @@
 const table = document.getElementById('mult-table');
 
 
+let btn = document.getElementById("submit_button").addEventListener("click", createMultTable)
 
-let btn = document.getElementById("submit_button").addEventListener("click", createTable)
-
-function createTable(event) {
+function createMultTable(event) {
     let output = '';
     event.preventDefault()
     let numOfRows = document.getElementById("row_input").value
@@ -18,12 +17,12 @@ function createTable(event) {
 
         for (let j = 0; j <= parseInt(numOfColumns) + 1; j++) {
             if (i == 0 && j == 0)
-                output += '<th>&times</th>'
+                output += '<th class= "th">&times</th>'
             else if (j >= 1 && i == 0) {
 
-                output += '<th>' + (j - 1) + '</th>'
+                output += '<th class="col">' + (j - 1) + '</th>'
             } else if (i >= 1 && j == 0) {
-                output += '<th>' + (i - 1) + '</th>'
+                output += '<th class="row">' + (i - 1) + '</th>'
             } else {
                 output += '<td>' + (i - 1) * (j - 1) + '</td>'
             }
@@ -33,4 +32,15 @@ function createTable(event) {
 
     table.innerHTML = output;
 }
+
+
+
+
+
+
+
+
+
+
+
 
