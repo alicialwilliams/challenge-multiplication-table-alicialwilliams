@@ -31,4 +31,5 @@ _(Before planning I had to review nested loops in tables vs divs.  I choose to w
 
 It may have been easier to set the output to an empty array as opposed to an empty string for user input boxes to manipulate rows of columns of different sizes.  
 
-I ws able to find tons of rsources on the hover color effect in css but had an issue with over shooting the top and bottom of the table.  Played with the pixel size but results worse or same result.  Will have to do more research.   )_
+I ws able to find tons of rsources on the hover color effect in css but had an issue with over shooting the top and bottom of the table.  Played with the pixel size but results worse or same result.  Will have to do more research.   
+Upon speaking with my team members I was lead in the direction to create a class names for rows and columns in order to meet the advanced requirements.  I also found a resource that lead me to hide the overflow of the column hover.)_
